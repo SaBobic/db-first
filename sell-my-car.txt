@@ -1,0 +1,22 @@
+'id' - INT NOT NULL UNSIGNED AUTO_INCREMENT PRIMARY_KEY
+'marca' - VARCHAR(20) 
+'modello' - VARCHAR(50) 
+'chilometri' - MEDIUMINT UNSIGNED
+'tipo_di_modello' - VARCHAR(50) 
+'potenza' - VARCHAR(20)
+'anno' - YEAR
+'trazione' - CHAR(3)
+'posti' - TINYINT UNSIGNED NOT NULL
+'porte' - TINYINT UNSIGNED NOT NULL
+'tipo_di_cambio' - VARCHAR(20)
+'cilindrata' - SMALLINT UNSIGNED NOT NULL
+'marce' - TINYINT UNSIGNED NOT NULL
+'cilindri' - TINYINT UNSIGNED NOT NULL
+'peso_a_vuoto' - SMALLINT UNSIGNED NOT NULL
+'carburante' - VARCHAR(20) NOT NULL
+'altre_fonti_energetiche' - VARCHAR(20) NULL
+'consumo_carburante' - VARCHAR(100) NULL
+'classe_emissioni' - VARCHAR(20) NOT NULL
+'colore' - VARCHAR(20) NOT NULL
+'colore_specifico' - CHAR(7) NULL
+'desc' - TEXT
